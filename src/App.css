@@ -1,38 +1,82 @@
-.App {
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 61, 25);
+  color: white;
+  height: 52px;
+  font-size: 3vh;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+ul li{
+  margin: 10px 10px;
+}
+
+.container, .container2{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  background-image: linear-gradient(45deg,green, rgb(61, 214, 61));
+  color:white;
+  margin-top: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 245px;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttons{
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-left: 11%;
+  max-width: 75%;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  
+  
+  background-image: linear-gradient(45deg,rgb(3, 77, 3), rgb(46, 167, 46));
+  cursor: pointer;
+  transition: 0.7s ease;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  background: rgb(11, 39, 7);
+  color:white;
+}
+textarea{
+  border: 1px solid rgb(0, 124, 31);
+  background: rgb(33, 59, 3);
+  color:white;
+  border-radius: 25px;
+  padding: 25px;
+  border-style: none;
+}
+
+
+
+h1{
+  color:green;
 }
